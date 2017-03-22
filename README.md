@@ -840,6 +840,17 @@ Elasticsearch's [documentation](http://www.elasticsearch.org/guide/) is more of 
 
 This really depends on how you want to organize your files, but I like to put all my version-controlled projects in `~/Projects`. Other documents I may have, or things not yet under version control, I like to put in `~/Dropbox` (if you have Dropbox installed), or `~/Documents`.
 
+## Install Composer
+
+Brew doesn't have composer, so gotta tap from somewhere else. And also, the package we've tapped might not be the updated version so we've gotta self update them as soon as possible.
+
+```bash
+$ brew tap josegonzalez/homebrew-php
+$ brew install composer
+$ composer selfupdate
+```
+
+
 ## Apps
 
 Here is a quick list of some apps I use, and that you might find useful as well:
